@@ -28,4 +28,4 @@ app.use((err, __, res, _) => {
   res.status(status).json({ message });
 });
 
-module.exports = app;
+module.exports = app
